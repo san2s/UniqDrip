@@ -1,0 +1,145 @@
+       /* Estilos generales */
+       * {
+           box-sizing: border-box;
+           margin: 0;
+           padding: 0;
+       }
+
+       /* Estilo general del cuerpo de la página */
+       body {
+           font-family: "Vogue", Arial, sans-serif;
+           color: #333;
+           background-color: #fff;
+       }
+
+       header img {
+           width: 15%;
+           height: auto;
+       }
+
+       /* Estilos del header */
+       header {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           padding: 10px 20px;
+           background-color: #fff;
+       }
+
+       /* Estilos del nav */
+       nav {
+           text-decoration: none;
+           text-transform: uppercase;
+           font-weight: bold;
+           font-size: 14px;
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+           padding: 10px 0;
+           background-color: #fff;
+           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+           /* border: solid;
+        border-width: 1px 0px 2px 0px; */
+       }
+
+       nav a {
+           color: #000;
+           text-decoration: none;
+           text-transform: uppercase;
+           font-weight: bold;
+           font-size: 14px;
+       }
+
+       nav a:hover {
+           color: #f00;
+           transition: all 400ms ease;
+       }
+
+       /* Estilos del main */
+       main {
+           display: flex;
+           flex-wrap: wrap;
+           grid-gap: 20px;
+           padding: 20px;
+       }
+
+
+       /* Estilos del aside */
+       aside {
+           flex: 0.5;
+           padding: 20px;
+           background-color: #eee;
+       }
+
+       aside h3 {
+           color: #333;
+           margin-bottom: 10px;
+       }
+
+       aside form {
+           display: flex;
+           flex-direction: column;
+       }
+
+       aside form label {
+           margin-bottom: 5px;
+       }
+
+       aside form input {
+           margin-bottom: 10px;
+           padding: 5px;
+           border: 1px solid #ccc;
+       }
+
+       aside form input[type="submit"] {
+           background-color: #333;
+           color: white;
+           cursor: pointer;
+       }
+
+       /* Estilos del footer */
+       footer {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           padding: 10px;
+           background-color: #000;
+           color: #fff;
+           font-size: 14px;
+       }
+
+       /* Estilos para pantallas pequeñas */
+       @media (max-width: 768px) {
+           main {
+               flex-direction: column;
+           }
+       }
+
+
+       h1 {
+           font-size: 2em;
+           font-family: 'Unna';
+           font-weight: normal;
+           font-style: normal;
+           color: #333;
+           margin-bottom: 10px;
+       }
+
+       h2 {
+           font-family: 'Unna';
+           font-weight: normal;
+           font-style: normal;
+           color: #333;
+           margin-bottom: 10px;
+       }
+
+       p {
+           font-family: 'Martel Sans', sans-serif;
+           text-align: justify;
+           position: relative;
+           overflow: hidden;
+       }
+       a{
+        text-decoration: none;
+        color: #192665;
+       }

@@ -1,0 +1,233 @@
+       /* Estilos generales */
+       * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Estilo general del cuerpo de la página */
+    body {
+        font-family: "Vogue", Arial, sans-serif;
+        color: #333;
+        background-color: #fff;
+    }
+
+    header img {
+        width: 15%;
+        height: auto;
+    }
+
+    /* Estilos del header */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-color: #fff;
+    }
+
+    /* Estilos del nav */
+    nav {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 0;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        /* border: solid;
+        border-width: 1px 0px 2px 0px; */
+    }
+
+    nav a {
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    nav a:hover {
+        color: #f00;
+        transition: all 400ms ease;
+    }
+
+    /* Estilos del main */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 20px;
+        padding: 20px;
+    }
+
+    
+    /* Estilos del aside */
+    aside {
+        flex: 0.5;
+        padding: 20px;
+        background-color: #eee;
+    }
+
+    aside h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    aside form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside form label {
+        margin-bottom: 5px;
+    }
+
+    aside form input {
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+
+    aside form input[type="submit"] {
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Estilos del footer */
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: #000;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    /* Estilos para pantallas pequeñas */
+    @media (max-width: 768px) {
+        main {
+            flex-direction: column;
+        }
+    }
+
+    #autor{
+        margin-left: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+      }
+      
+      #informacion{
+        padding: 3%;
+      }
+    
+      
+      
+    h1{
+        font-size: 40px;
+        text-align: center;
+        color: #fffffe;
+        font-family: 'Unna', serif;
+    }
+    .artista
+    {
+        height: 300px;
+    }
+    
+    .celdaInformacion p{
+        text-align: justify;
+        font-family: 'Martel Sans', sans-serif;
+        font-size: 18px;
+        color: #F2F2F2;
+        text-align: justify;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .contenedorReproductor{
+        font-size: 40px;
+        text-align: center;
+        color: #F2F2F2;
+        font-family: Montserrat;
+    }
+
+    .contenidoReproductor{
+        background-color: #1e1d1b;
+        color: #f25050;
+        margin: 100px;
+    }
+    
+    .celdaInformacion{
+        
+        background-color: #b4823e;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    
+    .contenedorReproductor2{
+        font-size: 40px;
+        text-align: center;
+        color: #F2F2F2;
+        font-family: Montserrat;
+    }
+
+    .contenidoReproductor2{
+        background-color: #271c19;
+        color: #f25050;
+        margin: 100px;
+    }
+    
+    .celdaInformacion2{
+        
+        background-color: #55423d;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    
+    .celdaInformacion2 p{
+        text-align: justify;
+        font-family: 'Martel Sans', sans-serif;
+        font-size: 18px;
+        color: #F2F2F2;
+        text-align: justify;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .contenedorReproductor3{
+        font-size: 40px;
+        text-align: center;
+        color: #F2F2F2;
+        font-family: Montserrat;
+    }
+
+    .contenidoReproductor3{
+        background-color: #a786df;
+        color: #f25050;
+        margin: 100px;
+    }
+    
+    .celdaInformacion3{
+        
+        background-color: #fec7d7;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    
+    .celdaInformacion3 p{
+        text-align: justify;
+        font-family: 'Martel Sans', sans-serif;
+        font-size: 18px;
+        color: #0e172c;
+        text-align: justify;
+        position: relative;
+        overflow: hidden;
+    }
+    
